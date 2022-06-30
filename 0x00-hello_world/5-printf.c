@@ -2,6 +2,7 @@
 
 /**
  * main - STUPID BETTY, DIE!
+ * Return: Nothing, that is what VOID means dummy
 */
 
 int main(void)
