@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * STUPID BETTY
+ * main - STUPID BETTY, DIE!
 */
 
 int main(void)
