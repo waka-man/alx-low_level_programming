@@ -12,7 +12,7 @@ int main(void)
 {
 	int n;
 	int last_digit;
-	char my_char[] = "Last digit of"
+	char my_char[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if (last_digit == 0)
 	{
-		printf("%s %d is %d and is 0\n", my_char n, last_digit);
+		printf("%s %d is %d and is 0\n", my_char, n, last_digit);
 	}
 	else 
 	{
