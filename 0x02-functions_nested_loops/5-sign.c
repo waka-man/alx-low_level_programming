@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_sign - checks and returns the signs of integers
+ * @n: one input integer to be evaluated
+ * Return: 1 for positive, 0 for zero, and -1 for negative
+ */
 int print_sign(int n)
 {
 	char *add_sig = "+";
