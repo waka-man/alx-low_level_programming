@@ -19,7 +19,7 @@ void times_table(void)
 
 		for (column = 0; column <= 9; column++)
 		{
-			i = row * column;
+			i = (row * column);
 
 			if ((i / 10) > 0)
 			{
