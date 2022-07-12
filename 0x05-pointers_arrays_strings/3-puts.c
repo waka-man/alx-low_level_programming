@@ -3,7 +3,7 @@
 /**
  * _puts - takes pointer of a string as a param and prints the string value
  * on the console
- * @*str: pointer to the string
+ * @str: pointer to the string
  * Return: nothing is returned
  */
 

@@ -3,8 +3,8 @@
 /**
  * swap_int - takes the pointers to two variables as params and
  * and swap the values outside of the body of code the vars are declared in
- * @*a: pointer to first integer address
- * @*b: pointer to second integer address
+ * @a: pointer to first integer address
+ * @b: pointer to second integer address
  * Return: Nothing is returned
  */
 

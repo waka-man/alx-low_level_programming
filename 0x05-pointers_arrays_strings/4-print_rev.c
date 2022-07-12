@@ -3,7 +3,7 @@
 /**
  * print_rev - takes string pointer as a param and sends the reversed
  * string to standard output
- * @*s: the pointer to the string value
+ * @s: the pointer to the string value
  * Return: nothing is returned
  */
 
