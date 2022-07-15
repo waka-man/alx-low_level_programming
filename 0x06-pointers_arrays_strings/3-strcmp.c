@@ -4,7 +4,7 @@
  * _strcmp - works exactly like strcpm, compares the strings
  * pointed to by the parameters passed
  * @s1: first string for comparison
- * @s1: second string for comparison
+ * @s2: second string for comparison
  * Return: if value > 0 then s1 > s2
  * if value < 0 then s2 > s1
  * if value = 0 then s1 = s2
