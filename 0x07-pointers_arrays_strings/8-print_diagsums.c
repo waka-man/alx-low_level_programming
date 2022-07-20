@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * print_diagsums - sums diagonally and prints results
+ * @a: array to be evaluated
+ * @size: size of the array
+ */
+
+
 void print_diagsums(int *a, int size)
 {
 	int index;
