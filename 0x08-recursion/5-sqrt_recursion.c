@@ -15,7 +15,7 @@ int _sqrt(int n, int real_sqrt)
 	else if (real_sqrt * real_sqrt == n)
 		return (real_sqrt);
 	else
-		return (_sqrt(n, (real_sqrt - 1)));
+		return (_sqrt(n, real_sqrt - 1));
 }
 
 /**

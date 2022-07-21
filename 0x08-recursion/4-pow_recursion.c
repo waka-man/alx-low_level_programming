@@ -15,7 +15,6 @@ int _pow_recursion(int x, int y)
 		return (result);
 	else if (y < 0)
 		return (-1);
-	else
-		result = x * _pow_recursion(x, (y - 1));
+	result = x * _pow_recursion(x, (y - 1));
 	return (result);
 }
