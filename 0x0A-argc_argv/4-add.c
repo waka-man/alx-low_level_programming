@@ -19,10 +19,10 @@ int main(int argc, char **argv)
 		for (index = 1; index < argc; index++)
 		{
 			if (!atoi(argv[index]))
-				{
-					printf("Error\n");
-					return (1);
-				}
+			{
+				printf("Error\n");
+				return (1);
+			}
 			sum = sum + atoi(argv[index]);
 		}
 	}
