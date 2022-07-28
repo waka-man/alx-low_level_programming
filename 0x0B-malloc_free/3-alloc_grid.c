@@ -23,6 +23,12 @@ int **alloc_grid(int width, int height)
 
 	tood_array = malloc(sizeof(int) * height);
 
+	if (tood_array == NULL)
+	{
+		free(tood_array);
+		return (NULL);
+	}
+
 	for (index = 0; index < height; index++)
 	{
 		tood_array[index] = malloc(sizeof(int) * width);
